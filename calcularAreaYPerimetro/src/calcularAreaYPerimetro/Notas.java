@@ -2,7 +2,7 @@ package calcularAreaYPerimetro;
 
 import java.util.Scanner;
 
-public class Main {
+public class Notas {
 	private static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
