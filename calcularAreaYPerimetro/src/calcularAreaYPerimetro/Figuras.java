@@ -20,47 +20,32 @@ public class Figuras {
         // Bucle que continúa ejecutándose hasta que el usuario elige la opción de salir
         do {
             System.out.println("\nSelecciona una figura:");
-            System.out.println("1. Círculo");
-            System.out.println("2. Cuadrado");
-            System.out.println("3. Rectángulo");
-            System.out.println("4. Triángulo");
-            System.out.println("5. Salir");
+            System.out.println("1. Cuadrado");
+            System.out.println("2. Rectángulo");
+            System.out.println("3. Triángulo");
+            System.out.println("4. Salir");
             
             opcion = sc.nextInt(); // Lee la opción seleccionada por el usuario
             
             // Ejecuta la función correspondiente según la opción elegida
             switch(opcion) {
                 case 1:
-                    calcularCirculo();
-                    break;
-                case 2:
                     calcularCuadrado();
                     break;
-                case 3:
+                case 2:
                     calcularRectangulo();
                     break;
-                case 4:
+                case 3:
                     calcularTriangulo();
                     break;
-                case 5:
+                case 4:
                     System.out.println("Saliendo del programa...");
                     break;
                 default:
                     // Mensaje de error si el usuario ingresa una opción no válida
                     System.out.println("Opción no válida. Escoge una de las opciones en pantalla.");
             }
-        } while(opcion != 5); // Condición para terminar el bucle si se elige la opción de salir
-    }
-    
-    // Método para calcular el área y perímetro de un círculo
-    private static void calcularCirculo() {
-        double radio = leerNumero("Introduce el radio del círculo: ");
-        double perimetro = 2 * Math.PI * radio; // Fórmula del perímetro del círculo
-        double area = Math.PI * Math.pow(radio, 2); // Fórmula del área del círculo
-        
-        // Muestra los resultados formateados con dos decimales
-        System.out.printf("\nEl perímetro del círculo de radio %.2f es %.2f.", radio, perimetro);
-        System.out.printf("\nEl área del círculo de radio %.2f es %.2f.%n", radio, area);
+        } while(opcion != 4); // Condición para terminar el bucle si se elige la opción de salir
     }
     
     // Método para calcular el área y perímetro de un cuadrado
