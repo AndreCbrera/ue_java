@@ -3,10 +3,10 @@ package calcularAreaYPerimetro;
 import java.util.Scanner;
 
 /* 
- * Esta aplicación permite al usuario calcular el área y el perímetro de figuras geométricas 
- * como el círculo, cuadrado, rectángulo y triángulo. El programa solicita al usuario que 
- * elija una figura, introduce los valores necesarios y muestra los resultados.
- * La aplicación se ejecuta en un bucle hasta que el usuario decide salir.
+ * Calcula el área y perímetro de una de las siguientes figuras.
+ * La aplicación pregunta al usuario qué figura quiere calcular el área 
+ * y el perímetro. Dichas figuras son el cuadrado, rectángulo y triángulo.
+ * una vez el usuario indica qué figura se calcula el área y el perímetro de dicha figura y el programa termina.
  */
 public class Figuras {
     
