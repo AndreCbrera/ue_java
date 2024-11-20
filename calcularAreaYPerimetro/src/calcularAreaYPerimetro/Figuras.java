@@ -20,10 +20,6 @@ public class Figuras {
         // Bucle que continúa ejecutándose hasta que el usuario elige la opción de salir
         do {
             System.out.println("\nSelecciona una figura:");
-            System.out.println("1. Cuadrado");
-            System.out.println("2. Rectángulo");
-            System.out.println("3. Triángulo");
-            System.out.println("4. Salir");
             
             opcion = sc.nextInt(); // Lee la opción seleccionada por el usuario
             
